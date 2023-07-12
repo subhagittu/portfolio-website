@@ -1,0 +1,355 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+*
+{
+    margin : 0 ;
+    padding : 0 ;
+
+}
+.sidebar
+{
+
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url("https://png.pngtree.com/background/20210711/original/pngtree-c4d-neon-cool-background-picture-image_1113037.jpg");
+    background-size: cover;
+    background-color: rgba(0,0,0,0.9);
+    width:15vw ;
+    color: white;
+    font-family: 'Fira Sans' , sans-serif ;
+    height : 50vw ;
+   
+}
+
+.sidebar nav 
+{
+    padding : 45px ;
+}
+
+.sidebar nav li 
+{
+    list-style : none ;
+    font-size: 25px ;
+    padding-top: 85px 
+   
+}
+
+.sidebar nav li:hover
+{
+    font-size:35px ;
+    transition-duration: 0.3s;
+    cursor : pointer ;
+    text-shadow: 0 0 25px #fff, 0 0 40px #fff, 0 0 50px #3cdac4, 0 0 60px #00e660, 0 0 70px #0077e6, 0 0 80px #0023e6, 0 0 90px #3d00e6;
+}
+.main
+{
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://png.pngtree.com/background/20210711/original/pngtree-c4d-neon-cool-background-picture-image_1113037.jpg");
+    background-repeat: no-repeat;
+    background-position: fixed;
+    background-size: cover;
+    background: (0,0,0,1.9);
+    width: 100vw ;
+    display :inline-block;
+}
+
+.container 
+{
+    display : flex ;
+   
+}
+
+.infocontainer
+{
+    border: 1px solid;
+    border-radius: 100px;
+    backdrop-filter: blur(10px);
+    background: rgba(63, 47, 47, 0.105);
+    backdrop-filter: saturate(180%) blur(10px);
+    height : 68vh ;
+    width: 80vw ;
+    margin : 144px auto ;
+    display : flex ;
+    justify-content: space-around;
+    overflow: hidden ;
+}
+
+.devinfo
+{
+    overflow-x: hidden;
+    overflow-y:auto;
+    display: flex ;
+    flex-direction: column ;
+    justify-content: center ;
+}
+.devpic1
+{
+    justify-content: center ;
+}
+.devpic 
+{
+    padding-top : 6vw ;
+    padding-right:2vw ;
+    padding-left: 3vw;
+}
+.devpic img
+{
+    border:1px solid black ;
+    
+    border-radius: 50px;
+    width:31.3vh ;
+}
+.hello 
+{
+    color : rgb(179, 160, 160) ;
+    padding-left: 5vw ;
+    font-size: 85px ;
+    font-family: 'Ubuntu', sans-serif;
+}
+.name 
+
+{
+    text-shadow: 0 0 10px #fff, 0 0 20px #d3bcbc, 0 0 30px #b63515, 0 0 40px #da5f5f, 0 0 50px #990808, 0 0 60px #e60073, 0 0 70px #e60073;
+    color : rgb(0, 0, 0) ;
+    padding-left: 5vw ;
+    font-size : 75px ;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+    padding-top: 10px ;
+}
+.about 
+{
+    color : rgb(179, 160, 160) ;
+    padding-top :10px ;
+    padding-left: 5vw ;
+    padding-right:10px ;
+    font-size: 35px ;
+    font-family: 'Ubuntu', sans-serif;
+}
+.buttons button
+{
+    padding : 20px ;
+    border: 1px solid ;
+    border-radius: 25px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    cursor : pointer ;
+
+}
+.buttons button:hover{
+        
+    background-color: rgb(0, 0, 0);
+    color : white ;
+} 
+.buttons 
+{
+    
+    padding-left: 5vw ;
+    padding-top : 2vw ;
+       
+        
+    
+}
+.button1
+{
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #8d0047, 0 0 40px #640133, 0 0 50px #420021, 0 0 60px #7c0340, 0 0 70px #53032b;
+}
+
+.text4
+{
+   
+    padding-top: 35px;
+    font-size: 20px ;
+    display : flex ;
+    color:white ;
+       
+}
+
+.link
+{
+    padding : 0px ;
+    text-decoration: none ;
+    color:rgb(234, 177, 177) ;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 19px ;
+}
+.link:hover
+{
+    cursor:pointer;
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    color:rgb(255, 255, 255);
+    font-weight: bold;
+}
+.moreabout 
+{
+    color: rgb(207, 188, 188) ;
+    font-size: 20px ;
+    font-family: 'Ubuntu', sans-serif;
+    padding-left: 5vw ;
+    padding-top :10px ;
+}
+.linkimg:hover
+{
+    color: #ffb3b3; 
+    background: rgb(244, 255, 227); 
+    box-shadow: 0 0 150px greenyellow; 
+    /* font-size: 40px ; */
+}
+
+.form1
+{
+    color : white ;
+    font-family: 'Ubuntu', sans-serif;
+    padding : 8px ;
+}
+.contactform 
+{
+    margin : 2vw ;
+}
+.buttoncontact
+{
+    color : rgb(175, 159, 159) ;
+    font-family: sans-serif;   
+    font-size : 13px ;
+}
+.buttonc 
+{
+    margin-bottom: 6px ;
+    padding : 8px ;
+    border-radius: 10px;
+    background-color: black;
+    color: white
+}
+
+.form2 
+{
+    padding : 3px ;
+    border-radius: 4px ;
+}
+.ggs
+{
+   
+    margin-top : 3vw ;
+    margin-left: 4vw;
+    margin-right: 4vw ;
+}
+.blog2
+{
+    color : rgb(216, 197, 197) ;
+    font-size :1.2vw ;
+    padding-top: 14px ;
+    font-family: 'Ubuntu', sans-serif;
+}
+.blog1 
+{
+    
+    text-shadow: 0 0 10px #fff, 0 0 20px #d3bcbc, 0 0 30px #b63515, 0 0 40px #da5f5f, 0 0 50px #990808, 0 0 60px #e60073, 0 0 70px #e60073;
+    color : rgb(0, 0, 0) ;
+    padding-left: 5vw ;
+    font-size : 40px ;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+    padding-top: 10px ;
+    text-align: center ;
+}
+.imageblog
+{
+    text-align : center ;
+}
+.name1
+{
+    text-shadow: 0 0 10px #fff, 0 0 20px #d3bcbc, 0 0 30px #b63515, 0 0 40px #da5f5f, 0 0 50px #990808, 0 0 60px #e60073, 0 0 70px #e60073;
+    color : rgb(0, 0, 0) ;
+    font-size : 45px ;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+    padding-left: 5vw ;
+}
+
+.moreaboutintro
+{
+    color: rgb(255, 255, 255) ;
+    font-size: 18px ;
+    font-family: 'Ubuntu', sans-serif;
+    padding:10px;
+    font-weight: bold;
+    
+}
+
+.more2
+{
+    padding:0px ;
+    margin:0px ;
+}
+.devinfo1
+{
+    padding-top:13vw ;
+    overflow-x: hidden;
+    overflow-y:scroll ;
+    width:90vw ;
+    display: flex ;
+    flex-direction: column ;
+    justify-content: center ;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+.skill
+{
+    width:265px ;
+    height:6px ;
+    background-color: white ;
+}
+.skillcontainer
+{
+    padding:12px ;
+}
+.skill1
+{
+    width:225px ;
+    height:6px ;
+    background-color: white ;
+}
+.skill2
+{
+    width:205px ;
+    height:6px ;
+    background-color: white ;
+}
+.skill3
+{
+    width:235px ;
+    height:6px ;
+    background-color: white ;
+}
+.skill4
+{
+    width:245px ;
+    height:6px ;
+    background-color: white ;
+}
+.skill5
+{
+    width:220px ;
+    height:6px ;
+    background-color: white ;
+}
+.skill6
+{
+    width:210px ;
+    height:6px ;
+    background-color: white ;
+}
+.skill7
+{
+    width:200px ;
+    height:6px ;
+    background-color: white ;
+}
+.devinfo2
+{
+    padding-top:27vw ;
+    overflow-x: hidden;
+    overflow-y:scroll ;    
+    display: flex ;
+    flex-direction: column ;
+    justify-content: center ;
+}
